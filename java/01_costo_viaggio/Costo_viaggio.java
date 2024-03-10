@@ -4,8 +4,6 @@
 import java.util.Scanner;
 public class Costo_viaggio {
         
-    public Costo_viaggio() {
-    }
     public static void main(String[] args) {
          Scanner scanner = new Scanner(System.in);
         
