@@ -35,17 +35,19 @@ public class OrderController {
 
         for (Map.Entry<Integer, Integer> entry : orderrequest.getProducts().entrySet())
         {
-            //mi serve cercare nel repository il prodotto con un dato ID e verificare che
-            //ci sia una scorta adeguata a soddisfare la richiesta
+            try {
+                //mi serve cercare nel repository il prodotto con un dato ID e verificare che
+                //ci sia una scorta adeguata a soddisfare la richiesta
 
-            //verifica che il productRepository contenga quel prodotto (in base a ID) in quantità >= richiesta
-            Product product = productRepository.findByIdAndQuantityGreaterThanEqual(entry.getKey(), entry.getValue());
+                //verifica che il productRepository contenga quel prodotto (in base a ID) in quantità >= richiesta
+                Product product = productRepository.findByIdAndQuantityGreaterThanEqual(entry.getKey(), entry.getValue());
 
-                            list.add(new OrderProduct().setProduct(product).setQuantity(entry.getValue()));
-                            // aggiorna la quantità di prodotto che rimane in stock dopo aver soddisfatto la richiesta
-
-            product.setQuantity(product.getQuantity()-entry.getValue());
-
+                list.add(new OrderProduct().setProduct(product).setQuantity(entry.getValue()));
+                // aggiorna la quantità di prodotto che rimane in stock dopo aver soddisfatto la richiesta
+                product.setQuantity(product.getQuantity()-entry.getValue());
+            }catch(Exception e){
+                return "not enough quantity of this product in the DB";
+        }
 
         }
         FinalOrder finalOrder = new FinalOrder().setUser(user.get()).setProducts(list);
