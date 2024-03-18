@@ -1,4 +1,4 @@
-package dsbd2020.lab.ecomm.api;
+package dsbd2020.lab.ecomm.DataModel;
 
 import javax.validation.constraints.NotNull;
 import java.util.Map;
