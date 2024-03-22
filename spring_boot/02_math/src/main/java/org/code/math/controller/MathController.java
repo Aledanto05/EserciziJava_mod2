@@ -46,7 +46,7 @@ public class MathController {
         }catch (Exception e){
             return ("Error in deletion: "+ e);
         }
-        return "the user with id = " +id + " has been deleted";
+        return "Operation with id = " +id + " has been deleted";
     }
 
 
