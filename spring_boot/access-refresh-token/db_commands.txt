@@ -1,0 +1,4 @@
+CREATE USER 'springant'@'localhost' IDENTIFIED BY 'DB2020!';
+CREATE DATABASE auth;
+GRANT ALL PRIVILEGES ON auth.* TO 'springant'@'localhost';
+FLUSH PRIVILEGES;

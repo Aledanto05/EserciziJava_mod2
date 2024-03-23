@@ -1,9 +1,8 @@
-package com.dslab.ecommercelab.service;
+package org.code.accessrefreshtoken.service;
 
-import com.dslab.ecommercelab.entity.User;
-import com.dslab.ecommercelab.entity.UserRepository;
-import com.dslab.ecommercelab.security.AuthResponse;
-import com.dslab.ecommercelab.security.JwtUtils;
+import org.code.accessrefreshtoken.entity.User;
+import org.code.accessrefreshtoken.entity.UserRepository;
+import org.code.accessrefreshtoken.security.JwtTokenUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -14,7 +13,7 @@ import java.util.Optional;
 
 @Service
 @Transactional
-public class EcommUserService {
+public class UserService {
 
     @Autowired
     UserRepository repository;
@@ -23,7 +22,7 @@ public class EcommUserService {
     private PasswordEncoder passwordEncoder;
 
     @Autowired
-    JwtUtils jwtUtils;
+    JwtTokenUtils jwtTokenUtils;
 
     public User addUser(User user) {
         user.setRoles(Collections.singletonList("USER"));
@@ -35,16 +34,15 @@ public class EcommUserService {
         return repository.findAll();
     }
 
-    public Optional<User> getByEmail(String email) {
-        return Optional.ofNullable(repository.findByEmail(email));
+    public Optional<User> getByEmail(String username) {
+        return Optional.ofNullable(repository.findByUsername(username));
     }
 
-    public AuthResponse login(User user) {
-        User u = repository.findByEmail(user.getEmail());
+    public String login(User user) {
+        User u = repository.findByUsername(user.getUsername());
         if (u != null) {
             if (passwordEncoder.matches(user.getPassword(), u.getPassword())) {
-                AuthResponse authResponse = new AuthResponse(jwtUtils.generateJwtToken(u.getEmail()), jwtUtils.generateRefreshToken(u.getEmail()));
-                return authResponse;
+                return jwtTokenUtils.generateToken(u.getEmail());
             }
         }
         return null;

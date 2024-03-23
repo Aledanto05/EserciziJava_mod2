@@ -1,6 +1,7 @@
 package com.dslab.ecommercelab.controller;
 
 import com.dslab.ecommercelab.entity.User;
+import com.dslab.ecommercelab.security.AuthResponse;
 import com.dslab.ecommercelab.service.EcommUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -29,7 +30,7 @@ public class UserController {
     }
 
     @PostMapping(path = "/login")
-    public @ResponseBody String login(@RequestBody User user) {
+    public @ResponseBody AuthResponse login(@RequestBody User user) {
         return userService.login(user);
     }
 
