@@ -39,6 +39,7 @@ public class EcommConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/user/register").permitAll() // Consenti a tutti l'accesso all'endpoint /user/register
                 .antMatchers("/user/login/**").permitAll() // Consenti a tutti l'accesso all'endpoint /user/login
+                .antMatchers("/user/re-auth/**").permitAll() // Consenti a tutti l'accesso all'endpoint /user/reAuth
                 .antMatchers("/user/all").hasAuthority("ADMIN") // Consenti soltanto agli utenti con ruolo ADMIN l'accesso a /user/all
                 .antMatchers(HttpMethod.DELETE, "/user/{id}").hasAuthority("ADMIN") // Consenti soltanto agli utenti con ruolo ADMIN la rimozione degli utenti
                 .antMatchers(HttpMethod.GET, "/product/*").permitAll()  // Consenti a tutti l'operazione di GET all'endpoint /product

@@ -14,7 +14,6 @@ public class EcommProductService {
 
     @Autowired
     ProductRepository repository;
-
     public Product add(Product product) {
         return repository.save(product);
     }

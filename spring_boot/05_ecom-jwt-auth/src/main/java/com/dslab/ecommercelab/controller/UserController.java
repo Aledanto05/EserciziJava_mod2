@@ -3,6 +3,7 @@ package com.dslab.ecommercelab.controller;
 import com.dslab.ecommercelab.entity.User;
 import com.dslab.ecommercelab.security.AuthResponse;
 import com.dslab.ecommercelab.service.EcommUserService;
+import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
@@ -32,6 +33,11 @@ public class UserController {
     @PostMapping(path = "/login")
     public @ResponseBody AuthResponse login(@RequestBody User user) {
         return userService.login(user);
+    }
+
+    @PostMapping(path = "/re-auth")
+    public @ResponseBody AuthResponse reAuth (@RequestHeader String refreshToken) throws Exception {
+        return userService.reAuth(refreshToken);
     }
 
     //GET http://localhost:8080/user/<mail>

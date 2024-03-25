@@ -67,4 +67,18 @@ public class JwtUtils {
         }
         return false;
     }
+    public Claims decodeRefreshToken(String refreshToken, String secretKey) {
+        try {
+            Jws<Claims> claimsJws = Jwts.parser()
+                    .setSigningKey(secretKey)
+                    .parseClaimsJws(refreshToken);
+            System.out.println("Subject: " + claimsJws);
+            return claimsJws.getBody();
+        } catch (Exception e) {
+            // Gestisci eventuali errori di decodifica del token
+            e.printStackTrace();
+            return null;
+        }
+    }
+
 }
