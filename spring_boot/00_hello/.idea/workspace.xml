@@ -4,159 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d3e4e72-e985-4ea4-8409-83874b28d94a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsbd2020/lab/hello/demo/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsbd2020/lab/hello/demo/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_ecomm/src/main/java/dsbd2020/lab/ecomm/DataModel/FinalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01_ecomm/src/main/java/dsbd2020/lab/ecomm/DataModel/FinalOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_ecomm/src/main/java/dsbd2020/lab/ecomm/api/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01_ecomm/src/main/java/dsbd2020/lab/ecomm/api/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_ecomm/src/main/java/dsbd2020/lab/ecomm/api/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01_ecomm/src/main/java/dsbd2020/lab/ecomm/api/OrderRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_ecomm/src/main/java/dsbd2020/lab/ecomm/api/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01_ecomm/src/main/java/dsbd2020/lab/ecomm/api/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_ecomm/src/main/java/dsbd2020/lab/ecomm/api/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01_ecomm/src/main/java/dsbd2020/lab/ecomm/api/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_ecomm/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../01_ecomm/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_ecommmicroservices/ordermanager/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../03_ecommmicroservices/ordermanager/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_ecommmicroservices/ordermanager/src/main/java/dsbd2020/lab/ordermanager/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_ecommmicroservices/ordermanager/src/main/java/dsbd2020/lab/ordermanager/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_ecommmicroservices/ordermanager/src/main/java/dsbd2020/lab/ordermanager/controller/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_ecommmicroservices/ordermanager/src/main/java/dsbd2020/lab/ordermanager/controller/OrderRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_ecommmicroservices/productmanager/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../03_ecommmicroservices/productmanager/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_ecommmicroservices/productmanager/src/main/java/dsbd2020/lab/productmanager/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_ecommmicroservices/productmanager/src/main/java/dsbd2020/lab/productmanager/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_ecommmicroservices/usermanager/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../03_ecommmicroservices/usermanager/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/entities/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/entities/src/main/java/order/FinalOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/entities/src/main/java/order/OrderProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/entities/src/main/java/product/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/entities/src/main/java/user/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/src/main/java/dsbd2020/lab/ordermanager/OrdermanagerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/src/main/java/dsbd2020/lab/ordermanager/controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/src/main/java/dsbd2020/lab/ordermanager/controller/OrderRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/src/main/java/dsbd2020/lab/ordermanager/data/FinalOrderRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/src/main/java/dsbd2020/lab/ordermanager/data/ProductUpdateRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/src/main/java/dsbd2020/lab/ordermanager/kafka/KafkaProducerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/ordermanager/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/src/main/java/dsbd2020/lab/productmanager/ProductmanagerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/src/main/java/dsbd2020/lab/productmanager/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/src/main/java/dsbd2020/lab/productmanager/data/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/src/main/java/dsbd2020/lab/productmanager/data/ProductUpdateRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/src/main/java/dsbd2020/lab/productmanager/kafka/KafkaConsumerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/src/main/java/dsbd2020/lab/productmanager/kafka/KafkaConsumerProducts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/productmanager/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/registrationserver/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/registrationserver/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/registrationserver/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/registrationserver/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/registrationserver/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/registrationserver/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/registrationserver/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/registrationserver/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/registrationserver/src/main/java/dsbd2020/lab/registrationserver/RegistrationserverApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/registrationserver/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/springgateway/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/springgateway/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/springgateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/springgateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/springgateway/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/springgateway/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/springgateway/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/springgateway/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/springgateway/src/main/java/dsbd2020/lab/springgateway/SpringgatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/springgateway/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/usermanager/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/usermanager/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/usermanager/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/usermanager/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/usermanager/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/usermanager/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/usermanager/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/usermanager/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/usermanager/src/main/java/dsbd2020/lab/usermanager/UsermanagerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/usermanager/src/main/java/dsbd2020/lab/usermanager/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/usermanager/src/main/java/dsbd2020/lab/usermanager/data/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/usermanager/src/main/java/dsbd2020/lab/usermanager/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_ecommmicroservices_kafka/usermanager/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/entities/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/entities/src/main/java/order/FinalOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/entities/src/main/java/order/OrderProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/entities/src/main/java/product/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/entities/src/main/java/user/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/ordermanager/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/ordermanager/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/ordermanager/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/ordermanager/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/ordermanager/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/ordermanager/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/ordermanager/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/ordermanager/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/ordermanager/src/main/java/dsbd2020/lab/ordermanager/OrdermanagerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/ordermanager/src/main/java/dsbd2020/lab/ordermanager/controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/ordermanager/src/main/java/dsbd2020/lab/ordermanager/controller/OrderRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/ordermanager/src/main/java/dsbd2020/lab/ordermanager/data/FinalOrderRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/ordermanager/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/productmanager/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/productmanager/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/productmanager/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/productmanager/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/productmanager/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/productmanager/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/productmanager/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/productmanager/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/productmanager/src/main/java/dsbd2020/lab/productmanager/ProductmanagerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/productmanager/src/main/java/dsbd2020/lab/productmanager/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/productmanager/src/main/java/dsbd2020/lab/productmanager/data/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/productmanager/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/registrationserver/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/registrationserver/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/registrationserver/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/registrationserver/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/registrationserver/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/registrationserver/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/registrationserver/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/registrationserver/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/registrationserver/src/main/java/dsbd2020/lab/registrationserver/RegistrationserverApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/registrationserver/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/springgateway/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/springgateway/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/springgateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/springgateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/springgateway/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/springgateway/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/springgateway/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/springgateway/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/springgateway/src/main/java/dsbd2020/lab/springgateway/SpringgatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/springgateway/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/usermanager/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/usermanager/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/usermanager/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/usermanager/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/usermanager/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/usermanager/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/usermanager/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/usermanager/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/usermanager/src/main/java/dsbd2020/lab/usermanager/UsermanagerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/usermanager/src/main/java/dsbd2020/lab/usermanager/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/usermanager/src/main/java/dsbd2020/lab/usermanager/data/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/usermanager/src/main/java/dsbd2020/lab/usermanager/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_ecommmicroservices/usermanager/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DS.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../DS.xmind" afterDir="false" />
-    </list>
+    <list default="true" id="9d3e4e72-e985-4ea4-8409-83874b28d94a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,17 +14,17 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "contexts": [
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
     {
-      "name": "minikube",
-      "originalNamespace": "default"
+      &quot;name&quot;: &quot;minikube&quot;,
+      &quot;originalNamespace&quot;: &quot;default&quot;
     }
   ],
-  "isMigrated": true
-}]]></component>
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="KubernetesSettings">
     <option name="contextName" value="minikube" />
   </component>
@@ -193,24 +41,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "Spring Boot.HelloApplication.executor": "Run",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.HelloApplication">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
@@ -250,6 +98,7 @@
       <workItem from="1708207649064" duration="216000" />
       <workItem from="1710335464082" duration="706000" />
       <workItem from="1710341695962" duration="1932000" />
+      <workItem from="1712238772801" duration="33000" />
     </task>
     <servers />
   </component>

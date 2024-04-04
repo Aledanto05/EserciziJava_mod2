@@ -13,6 +13,9 @@ public class MathController {
     @Autowired
     OperationRepository operationRepository;
 
+    //SWAGGER
+    //http://localhost:8080/swagger-ui/index.html
+
     @PostMapping(path = "/add")
     public @ResponseBody String add(@RequestParam float num1, @RequestParam float num2){
         float result = num1 + num2;
