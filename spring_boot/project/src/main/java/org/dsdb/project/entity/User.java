@@ -1,7 +1,7 @@
 package org.dsdb.project.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import javax.validation.constraints.NotNull;
 import java.util.List;

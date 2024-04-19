@@ -37,6 +37,7 @@ public class ProjectConfig extends WebSecurityConfigurerAdapter {
                 // STATELESS session
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
                 .authorizeRequests()
+                .antMatchers("/v2/**", "/swagger-ui/**").permitAll()
                 .antMatchers("/user/register").permitAll() // Consenti a tutti l'accesso all'endpoint /user/register
                 .antMatchers("/user/login/**").permitAll() // Consenti a tutti l'accesso all'endpoint /user/login
                 .antMatchers("/user/re-auth/**").permitAll() // Consenti a tutti l'accesso all'endpoint /user/reAuth
