@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-@Controller
+
 @RequestMapping(path = "math")
 public class MathController {
 
@@ -28,6 +28,18 @@ public class MathController {
         return String.valueOf(result);
     }
 
+    @PostMapping(path = "/somma/{num1}/{num2}")
+    public @ResponseBody String somma(@PathVariable float num1, @PathVariable float num2){
+        float result = num1 + num2;
+        Operation operation = new Operation(num1, num2, result, "addition");
+        try{
+            operationRepository.save(operation);
+        }catch(Exception e) {
+            return ("Error in saving: " + e);
+        }
+        return String.valueOf(result);
+    }
+
 
     @PostMapping(path = "/subtract")
     public @ResponseBody String  subtract(@RequestParam float num1, @RequestParam float num2){
@@ -39,6 +51,18 @@ public class MathController {
             return ("Error in saving: " +e);
         }
 
+        return String.valueOf(result);
+    }
+
+    @PostMapping(path = "/mult")
+    public @ResponseBody String mult(@RequestParam float num1, @RequestParam float num2){
+        float result = num1 * num2;
+        Operation operation = new Operation(num1, num2, result, "multiplication");
+        try{
+            operationRepository.save(operation);
+        }catch(Exception e) {
+            return ("Error in saving: " + e);
+        }
         return String.valueOf(result);
     }
 
